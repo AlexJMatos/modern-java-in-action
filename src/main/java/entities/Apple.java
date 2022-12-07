@@ -3,9 +3,13 @@ package entities;
 public class Apple {
 
     private int weight = 0;
-    private String color = "";
+    private Color color;
 
-    public Apple(int weight, String color) {
+    public Apple(int weight) {
+        this.weight = weight;
+    }
+
+    public Apple(int weight, Color color) {
         this.weight = weight;
         this.color = color;
     }
@@ -18,11 +22,11 @@ public class Apple {
         this.weight = weight;
     }
 
-    public String getColor() {
+    public Color getColor() {
         return color;
     }
 
-    public void setColor(String color) {
+    public void setColor(Color color) {
         this.color = color;
     }
 
@@ -30,5 +34,10 @@ public class Apple {
     @Override
     public String toString() {
         return String.format("Apple{color='%s', weight=%d}", color, weight);
+    }
+
+    public enum Color {
+        RED,
+        GREEN;
     }
 }
