@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb0a37b8-d465-4a06-bb04-157b9f65fd32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter3/AppleInventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter3/LambdaExpressions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter4/Streams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Letter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/RGB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/Trader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/WorkingWithStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter1/FilteringApples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter1/FilteringApples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chapter4/Streams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter4/Streams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Dish.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ksquare/OneDrive - The Ksquare Group/Desktop/Java/modern-java-in-action&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Ksquare/OneDrive - The Ksquare Group/Desktop/Java/modern-java-in-action/src/main/resources"
   }
-}</component>
-  <component name="RunManager" selected="Application.Streams">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ksquare\OneDrive - The Ksquare Group\Desktop\Java\modern-java-in-action\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WorkingWithStreams">
     <configuration name="FilteringApples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter1.FilteringApples" />
       <module name="modern-java-in-action" />
@@ -86,8 +91,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorkingWithStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter5.WorkingWithStreams" />
+      <module name="modern-java-in-action" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WorkingWithStreams" />
         <item itemvalue="Application.Streams" />
         <item itemvalue="Application.LambdaExpressions" />
         <item itemvalue="Application.FilteringApples" />
