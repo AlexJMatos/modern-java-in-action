@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb0a37b8-d465-4a06-bb04-157b9f65fd32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/Trader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/WorkingWithStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/CaloricLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/Grouping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/MultiLevelGrouping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/Partitioning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/ReducingAndSummarization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter4/Streams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter4/Streams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entities/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Dish.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -38,26 +38,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Ksquare/OneDrive - The Ksquare Group/Desktop/Java/modern-java-in-action/src/main/resources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ksquare/Downloads/ModernJavaInAction-master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ksquare\OneDrive - The Ksquare Group\Desktop\Java\modern-java-in-action\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WorkingWithStreams">
-    <configuration name="FilteringApples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1.FilteringApples" />
+  <component name="RunManager" selected="Application.Partitioning">
+    <configuration name="Grouping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter6.Grouping" />
       <module name="modern-java-in-action" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter1.*" />
+          <option name="PATTERN" value="chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.LambdaExpressions" />
+    <configuration name="MultiLevelGrouping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter6.MultiLevelGrouping" />
       <module name="modern-java-in-action" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter3.*" />
+          <option name="PATTERN" value="chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +78,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Streams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter4.Streams" />
+    <configuration name="Partitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter6.Partitioning" />
       <module name="modern-java-in-action" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter4.*" />
+          <option name="PATTERN" value="chapter6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReducingAndSummarization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter6.ReducingAndSummarization" />
+      <module name="modern-java-in-action" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,10 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Partitioning" />
+        <item itemvalue="Application.MultiLevelGrouping" />
+        <item itemvalue="Application.Grouping" />
+        <item itemvalue="Application.ReducingAndSummarization" />
         <item itemvalue="Application.WorkingWithStreams" />
-        <item itemvalue="Application.Streams" />
-        <item itemvalue="Application.LambdaExpressions" />
-        <item itemvalue="Application.FilteringApples" />
       </list>
     </recent_temporary>
   </component>
